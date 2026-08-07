@@ -1,44 +1,44 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      {/* Barra de navegación */}
-      <header>
-        <h2>🐱 Studio Catito</h2>
+      <Navbar />
 
-        <nav>
-          <a href="#">Inicio</a>
-          <a href="#">Proyectos</a>
-          <a href="#">Apps</a>
-          <a href="#">Nosotros</a>
-          <a href="#">Contacto</a>
-        </nav>
-      </header>
+      <section className="hero">
 
-      {/* Hero Principal */}
-      <main>
-        <section className="hero">
+        <div className="background-glow glow1"></div>
+        <div className="background-glow glow2"></div>
 
-          <div className="hero-content">
+        <div className="hero-content">
 
-            <h1>
-              CREAMOS <br />
-              SOFTWARE <br />
-              <span>QUE INSPIRA</span>
-            </h1>
+          <span className="badge">
+            🚀 Desarrollo de Software
+          </span>
 
-            <p>
-              Desarrollo de aplicaciones móviles, páginas web y soluciones
-              digitales modernas.
-            </p>
+          <h1>
+            CREAMOS
+            <br />
+            SOFTWARE
+            <br />
+            <span>QUE INSPIRA.</span>
+          </h1>
 
-            <button>Ver proyectos</button>
+          <p>
+            Studio Catito es un estudio independiente dedicado al desarrollo
+            de aplicaciones móviles, desarrollo web y herramientas que ayudan
+            a resolver problemas reales.
+          </p>
 
-          </div>
+          <button>
+            Explorar proyectos
+          </button>
 
-        </section>
-      </main>
+        </div>
+
+      </section>
+
     </>
   );
 }

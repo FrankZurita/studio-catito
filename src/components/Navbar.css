@@ -1,0 +1,78 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 70px;
+
+    background: rgba(10,10,10,.85);
+    backdrop-filter: blur(10px);
+
+    z-index: 1000;
+}
+
+.logo{
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+}
+
+.logo-icon{
+
+    width:45px;
+    height:45px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:50%;
+
+    font-size:24px;
+
+    background:linear-gradient(135deg,#5B6CFF,#9D4EDD);
+
+}
+
+.logo h2{
+
+    color:white;
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+
+.menu{
+
+    display:flex;
+    gap:40px;
+
+}
+
+.menu a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:17px;
+
+    transition:.3s;
+
+}
+
+.menu a:hover{
+
+    color:#7F77DD;
+
+}
